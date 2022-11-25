@@ -12,7 +12,7 @@ async def root():
     
 @app.get("/1")
 async def des():
-    file_p="exp4\exp4_server.c"
+    file_p="..\exp4\exp4_server.c"
     return FileResponse(file_p)
 
 
